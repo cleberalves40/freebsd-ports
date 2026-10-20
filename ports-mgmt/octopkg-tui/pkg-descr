@@ -1,0 +1,10 @@
+octopkg-tui is a terminal user interface (TUI) for pkg(8), the FreeBSD package
+manager. It is the terminal counterpart of OctoPkg, with the same tabs and
+keyboard shortcuts wherever the terminal allows them.
+
+Version 0.1.0 is read-only: it lists installed packages and packages from the
+configured repositories, with OctoPkg's package states, search, sorting, package
+details, file lists, command output and help. It reads pkg query, pkg rquery and
+pkg upgrade -n directly, without a shell, and runs as an unprivileged user.
+
+WWW: https://github.com/cleberalves40/octopkg-tui
